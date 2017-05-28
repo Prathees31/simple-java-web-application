@@ -5,25 +5,29 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        
-        <h1>Hello World! Login Successful</h1>
-        <div class="">
-            
-        </div>
-        <div>
-             <form action="logout" method="post"> 
-            
-            <input type="submit" value="Logout"/>
-            
-          
-        </form>
-        </div>
-    </body>
+<head>
+<title>CRUD operations using jTable in J2EE</title>
+<!-- Include one of jTable styles. -->
+
+
+
+
+
+
+
+</head>
+<body>
+    <a href="./student.jsp">Student List</a>
+    <div>
+<form action="logout" method="post"> 
+
+<input type="submit" value="Logout"/>
+
+
+</form>
+    </div>
+
+</body>
 </html>

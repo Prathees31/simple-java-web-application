@@ -5,6 +5,7 @@
         <servlet-name>LogoutServlet</servlet-name>
         <servlet-class>logout.LogoutServlet</servlet-class>
     </servlet>
+ 
     <servlet-mapping>
         <servlet-name>loginser</servlet-name>
         <url-pattern>/loginser</url-pattern>
@@ -13,6 +14,7 @@
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
+    
     <welcome-file-list>
         <welcome-file>login.jsp</welcome-file>
     </welcome-file-list>
@@ -40,4 +42,12 @@
         <servlet-name>RegServlet</servlet-name>
         <url-pattern>/registration</url-pattern>
     </servlet-mapping>
+    <servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>student.StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/student</url-pattern>
+  </servlet-mapping>
 </web-app>

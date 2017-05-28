@@ -1,0 +1,17 @@
+{
+  "name": "sample-java-webapplication",
+  "homepage": "https://github.com/Prathees31/simple-java-web-application",
+  "authors": [
+    "Prathees31 <prathees.g.s@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
